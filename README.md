@@ -64,18 +64,12 @@ The model, implemented in the Net class, follows a sequential structure that def
 | Linear-5 | [-1, 50] | 204, 850 |
 | Linear-6 | [-1, 10]  | 510 |
 
---------
-
 Total params: 593,200
 
 Trainable params: 593,200
 
 Non-trainable params: 0
-
---------
-
-
-
+<hr class="dashed">
 
 ### Convolutional Layers
 - conv1: This layer applies a 2D convolution operation with 32 filters and a kernel size of 3 to the input.
