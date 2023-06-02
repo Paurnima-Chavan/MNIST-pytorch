@@ -3,8 +3,9 @@
 
 The MNIST dataset comprises 70,000 grayscale images of handwritten digits, each measuring 28 x 28 pixels and annotated by humans. It is a subset of a larger dataset made accessible by NIST, the National Institute of Standards and Technology. In this example, we will develop a handwritten digit recognizer utilizing a convolutional neural network (CNN) trained on the MNIST dataset, employing the PyTorch framework.
 
-
-<img width="600" aling="right" src="https://github.com/Paurnima-Chavan/MNIST-pytorch/blob/main/imgs/handwriiten.png?raw=true" />
+<p align="center">    
+    <img width="500" aling="right" src="https://github.com/Paurnima-Chavan/MNIST-pytorch/blob/main/imgs/handwriiten.png?raw=true" />
+</p>
 
 
 ## Documentation
@@ -138,8 +139,9 @@ To use the model for handwritten digit recognition, followed below steps:
           scheduler.step()
     ```
 - Finally, plotted the training and testing accuracy as well as the training and testing loss. It creates a 2x2 grid of subplots in a figure to visualize the training and testing performance over epochs, providing insights into the model's learning progress.
-    
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p align="center">    
+    <img width="800" hight="300" aling="right" src="https://github.com/Paurnima-Chavan/MNIST-pytorch/blob/main/imgs/performance.png" />
+ </p>
 
 ## Summary
 The Net model implemented in PyTorch provides an effective solution for classifying handwritten digits from the MNIST dataset. 
